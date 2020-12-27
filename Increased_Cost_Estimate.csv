@@ -1,9 +1,9 @@
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
 My Estimate,US East (N. Virginia),EBL,Application Load Balancer,0,44.53,534.36,USD,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),VPC,Amazon Virtual Private Cloud (VPC),0,37.35,448.20,USD,Number of NAT Gateways (1)
-My Estimate,US East (N. Virginia),EC2,Amazon EC2,2756,10.2,2878.40,USD,"Operating system (Linux), Quantity (4), Pricing strategy (Standard Reserved Instances 1 Year Full Upfront), Storage for each EC2 instance (Provisioned IOPS SSD (io2)), Storage amount (20 GB), Provisioning IOPS io2 (10), Instance type (t4g.xlarge)"
-My Estimate,US East (N. Virginia),RDS,Amazon RDS for PostgreSQL,6660,471.04,12312.48,USD,"Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year All Upfront), Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Instance type (db.m6g.2xlarge)"
-My Estimate,US East (N. Virginia),S3,S3 Standard,0,47.1,565.20,USD,S3 Standard storage (2 TB per month)
+My Estimate,US East (N. Virginia),VPC,Amazon Virtual Private Cloud (VPC),0,35.1,421.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),EC2,Amazon EC2,2756,3.2,2794.40,USD,"Operating system (Linux), Quantity (4), Pricing strategy (Standard Reserved Instances 1 Year Full Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (10 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),RDS,Amazon RDS for PostgreSQL,13320,230,16080.00,USD,"Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year All Upfront), Storage volume (General Purpose SSD (gp2)), Storage amount (500 GB per month), Instance type (db.m6g.2xlarge)"
+My Estimate,US East (N. Virginia),S3,S3 Standard,0,6.9,82.80,USD,S3 Standard storage (300 GB per month)
 My Estimate,US East (N. Virginia),S3,Data Transfer,0,0,0.00,USD,
-My Estimate,US East (N. Virginia),Data Transfer,AWS Data Transfer,0,40.96,491.52,USD,"DT Inbound: Internet (2 TB per month), DT Inbound: All other regions (2 TB per month), DT Outbound: Amazon CloudFront (1 TB per month), DT Intra-Region: (2 TB per month), Data transfer cost (40.96)"
+My Estimate,US East (N. Virginia),Data Transfer,AWS Data Transfer,0,6,72.00,USD,"DT Inbound: Internet (2 TB per month), DT Inbound: All other regions (2 TB per month), DT Outbound: Amazon CloudFront (1 TB per month), DT Intra-Region: (300 GB per month), Data transfer cost (6)"
 ,,,,,,,Changes,Increased Number of EC2 instances. Increased capacity and class of RDS.
